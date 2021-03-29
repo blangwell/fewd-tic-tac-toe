@@ -11,5 +11,3 @@ for (let i = 0; i < gameBoardSquares.length; i++) {
     moves++;
   })
 }
-
-

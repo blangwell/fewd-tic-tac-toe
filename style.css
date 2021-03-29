@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-board__row {
+  display: flex;
+}
+
+.game-board__square {
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+}
+
+.x-move, .o-move {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.x-move {
+  background-image: url(https://cdn.fastly.picmonkey.com/content4/previews/main/correctionmarks/markups_11_550.png);
+}
+.o-move {
+  background-image: url(https://i.pinimg.com/originals/d2/00/17/d20017f72f2cea677eb5622b55c0cb92.png)
+}
